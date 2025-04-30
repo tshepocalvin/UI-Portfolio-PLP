@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Reset CSS Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 1.4;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button, input, select, textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+
+  /* Laptop Styles */
+
+   /* Main */
+
+main{
+    position: relative;
+    background-image: url('assets/images/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(25,49,54, 0.92);
+    z-index: 1;
+  }
+
+  /* Bring Foward */
+
+  header, .main-left, .main-right  {
+    position: relative;
+    z-index: 2;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    font-weight: 600;
+  }
+
+  nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+
+nav .hireme a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007e6a;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+.main-l-r-container{
+    display: flex;
+    padding: 0px 50px;
+}
+
+.main-left{
+    flex: 2;
+    margin-top: 110px;
+    padding-right: 40px;
+}
+
+.main-left h1{
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+
+.main-left h2{
+    font-size: 3.9rem;
+    margin-bottom: 15px;
+}
+
+.main-left p{
+    margin-bottom: 50px;
+}
+
+.btn{
+    color: #ffffff;
+    padding: 15px 30px;
+    background-color: #007e6a;
+    border-radius: 40px;
+}
+
+.btnHireMe{
+    margin-right: 10px;
+}
+
+.btnMyPortfolio{
+    border: solid white 1px;
+    background-color: #8d909141;
+}
+
+/* Bio */
+
+.bio{
+    display: flex;
+    color: #6b7978;
+    padding: 0px 50px;
+    margin-top: 50px;
+    gap: 70px;
+}
+
+.bio-left, .bio-right{
+    flex-basis: 1;
+}
+
+.bio-right{
+    flex-basis: 3;
+}
+
+.bio-left img{
+    width: 1100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.light-text-heading{
+    font-weight: 400;
+    color: #6b7978;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.bio-right h2{
+    color: rgb(71, 71, 71);
+    margin-bottom: 20px;
+}
+
+.bio-right p{
+    margin-bottom: 60px;
+}
+
+.bio-contacts{
+    display: flex;
+    gap: 30px;
+    line-height: 0.1;
+}
+
+.bold{
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.socials .socials-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 40px;
+    color: #077a6b;
+}
+
+.btnDownloadCV{
+    background-color: #05c36f;
+}
