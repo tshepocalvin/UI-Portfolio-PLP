@@ -18,6 +18,8 @@ This is a personal portfolio website built as part of the Power Learn Project as
 
 # 📸 Preview
 
+https://tshepocalvin.github.io/UI-Portfolio-PLP
+
 
 
 # 🎨 Features
