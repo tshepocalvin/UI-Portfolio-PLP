@@ -256,6 +256,7 @@ nav .hireme a {
     margin-top: 50px;
     display: flex;
     gap: 70px;
+    padding-bottom: 70px;
 }
 
 .skills-left{
@@ -300,4 +301,54 @@ nav .hireme a {
 }
 .skills-right .progress-bar4 {
     width: 80%;
+}
+
+/* skills-summary */
+
+.skills-summary{
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    padding-top: 70px;
+    background-color: #bbb7b731;
+}
+
+.skills-summary-left{
+    display: flex;
+    width: 60%;
+    gap: 30px;
+}
+
+.skills-summary-left .card{
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    min-height: 150px;
+}
+
+.skills-summary-right .card{
+    display: flex;
+    gap: 15px;
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    min-height: 15px;
+}
+
+.skills-summary-left .card svg{
+    width: 60px;
+    align-self: flex-start;
+}
+
+.skills-summary-right{
+    width: 40%;
+}
+
+.skills-summary-left img{
+    border-radius: 5px;
+    max-width: 408px;
 }
