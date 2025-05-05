@@ -352,3 +352,22 @@ nav .hireme a {
     border-radius: 5px;
     max-width: 408px;
 }
+
+/* stats */
+
+.stats{
+    display: flex;
+    gap: 30px;
+    color: #3b3b3b;
+    padding: 100px  50px;
+}
+
+.stats div{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.stats h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
