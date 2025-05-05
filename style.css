@@ -411,3 +411,38 @@ nav .hireme a {
     width: 235px
 }
 
+footer{
+    background-color: #041c24;
+    padding: 50px;
+    color: #6b7978;
+}
+
+footer .logo img{
+    width: 123px;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.footer-contact{
+    display: flex;
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+
+.footer-contact div{
+    display: flex;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.footer-end{
+    display: flex;
+}
+
+.footer-end .footer-socials{
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    gap: 50px;
+}
