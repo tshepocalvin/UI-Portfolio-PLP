@@ -446,3 +446,40 @@ footer .logo img{
     flex-grow: 1;
     gap: 50px;
 }
+
+/* Laptop Large Laptop */
+
+@media (min-width: 1025px) {
+    nav{
+        padding: 40px 130px;
+    }
+
+    .main-l-r-container{
+        padding: 0px 130px;
+    }
+
+    .bio{
+        padding: 7px 130px;
+    }
+    .whatIDo{
+        padding: 70px 130px;
+    }
+    .skills{
+        padding: 70px 130px;
+    }
+    .skills-summary{
+        padding: 70px 130px;
+    }
+    .stats{
+        padding: 100px 130px;
+    }
+    .display{
+        padding: 100px 130px;
+    }
+    .companies{
+        padding: 70px 130px;
+    }
+    footer{
+        padding: 70px 130px;
+    }
+}
